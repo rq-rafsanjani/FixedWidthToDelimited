@@ -1,8 +1,12 @@
 '''
-This script will convert Fixed width File into Delimiter File, tried on Python 3.5 only
+This script will convert Fixed width File into Delimiter File, tested on Python 3.5 using Windows Subsytem for Linux (WSL)
 Sample run: (Order of argument doesnt matter)
 
-python3 FixedWidthToDelimiter.py -i SrcFile.txt -o TrgFile.csv -c Config.txt -d ","
+go to the directory containing this .py files
+cd /mnt/c/yourpathfolder
+
+run the command in WSL
+./python3 FixedWidthToDelimiter.py -i SrcFile.txt -o TrgFile.csv -c Config.txt -d ","
 
 Inputs are as follows
 1. Input File - Mandatory(Argument -i) - File which has fixed Width data in it
